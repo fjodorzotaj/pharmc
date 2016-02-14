@@ -15,6 +15,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
                 ('title', models.CharField(max_length=140)),
+                ('description', models.TextField()),
+                ('price', models.DecimalField(default=9.99, max_digits=100, decimal_places=2)),
             ],
         ),
     ]
