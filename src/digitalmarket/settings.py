@@ -86,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'digitalmarket',
         'USER': 'admin',
-        'PASSWORD': 'resident',
+        'PASSWORD': '123456',
         'HOST': 'localhost',
         'PORT': '',
     }
