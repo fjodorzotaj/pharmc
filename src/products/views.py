@@ -1,7 +1,16 @@
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
 
+from .forms import ProductAddForm
 from .models import Product
+
+def create_view(request):
+	form = ProductAddForm()
+	template = "create_view.html"
+	context = {
+			"form": form
+		}
+	return render(request, template, context)
 
 def detail_slug_view(request, slug=None):
 	try:
