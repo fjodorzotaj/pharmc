@@ -3,21 +3,26 @@
 	{
 		"selected_items":
 		[
+			[
+				"product",
+				"product_pre_save_receiver"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"Product",
+				"ProductAdmin"
+			],
+			[
+				"def",
+				"default"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "1",
-			"file": "/usr/share/applications/sublime3.desktop",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 1,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -49,8 +54,30 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/fzotaj/dm/lib64",
+		"/home/fzotaj/dm/src",
+		"/home/fzotaj/dm/src/digitalmarket",
+		"/home/fzotaj/dm/src/products",
+		"/home/fzotaj/dm/src/products/migrations",
+		"/home/fzotaj/dm/src/templates"
+	],
 	"file_history":
 	[
+		"/home/fzotaj/dm/src/products/models.py",
+		"/home/fzotaj/dm/src/digitalmarket/urls.py",
+		"/home/fzotaj/dm/src/products/views.py",
+		"/home/fzotaj/dm/src/templates/create_view.html",
+		"/home/fzotaj/dm/src/products/forms.py",
+		"/home/fzotaj/dm/src/templates/detail_view.html",
+		"/home/fzotaj/dm/src/templates/base.html",
+		"/home/fzotaj/dm/src/templates/list_view.html",
+		"/home/fzotaj/dm/src/digitalmarket/settings.py",
+		"/home/fzotaj/dm/README.md",
+		"/home/fzotaj/dm/src/products/admin.py",
+		"/home/fzotaj/dm/src/templates/not_found.html",
+		"/usr/share/applications/sublime3.desktop"
 	],
 	"find":
 	{
@@ -85,37 +112,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/usr/share/applications/sublime3.desktop",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -125,7 +123,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -155,7 +153,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "digitalmarket.sublime-project",
+	"project": "pharmc.sublime-workspace",
 	"replace":
 	{
 		"height": 0.0
@@ -196,7 +194,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 243.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
